@@ -4,7 +4,7 @@
     "PrivatePropertyName"
 )
 
-package com.amuze.learnfromhome.StudentActivity
+package com.afsar.githubrepo.StudentActivity
 
 import android.content.Context
 import android.content.Intent
