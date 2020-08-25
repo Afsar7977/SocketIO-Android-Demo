@@ -18,9 +18,9 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.amuze.learnfromhome.HomePage
-import com.amuze.learnfromhome.Modal.CMessage
-import com.amuze.learnfromhome.R
+import com.afsar.githubrepo.HomePage
+import com.afsar.githubrepo.Modal.CMessage
+import com.afsar.githubrepo.R
 import com.github.nkzawa.emitter.Emitter
 import com.github.nkzawa.socketio.client.Socket
 import de.hdodenhof.circleimageview.CircleImageView
