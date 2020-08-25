@@ -1,4 +1,4 @@
-package com.amuze.learnfromhome.StudentActivity
+package com.afsar.githubrepo.StudentActivity
 
 import com.github.nkzawa.socketio.client.IO
 import com.github.nkzawa.socketio.client.Socket
@@ -11,7 +11,7 @@ class ChatApplication {
 
     init {
         mSocket = try {
-            IO.socket("https://chatapp-ejs.herokuapp.com/")
+            IO.socket("https://your_socket_url/")
         } catch (e: URISyntaxException) {
             throw RuntimeException(e)
         }
