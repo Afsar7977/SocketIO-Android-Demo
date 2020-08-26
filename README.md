@@ -2,9 +2,13 @@
 
 Socket.IO provides you real-time bidirectional event based communication,which is very suitable for multiplayer games or real time communication.
 Socket.IO provides the real-time communication for server and client.
-Here Both server and client can emit and listen their calls.Server also can trigger the event on specific route which are listened by their subscribers.
+Here Both server and client can emit and listen their calls.
+
+Server also can trigger the event on specific route which are listened by their subscribers.
 Means client which has putted their listener for particular events.
-Socket.io is event-based. Both server and client emitting an event and listening to event from each other. (It is like we set an OnClickListener for our button in android.)
+Socket.io is event-based. Both server and client emitting an event and listening to event from each other. 
+(It is like we set an OnClickListener for our button in android.)
+
 A simple HTTP handshake takes place at the beginning of a Socket.IO connection.
 By using room and namespace, you can categorize sockets in the way you want.
 
